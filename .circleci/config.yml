@@ -1,19 +1,8 @@
 version: 2.1
-
-jobs:
-  test-runner:
-    docker:
-      - image: cimg/node:17.8.0
-    steps:
-      - checkout
-      - run:
-          name: "Install dependencies"
-          command: npm install
-      - run:
-          name: "Run tests"
-          command: npm test
+orbs:
+  cypress: cypress-io/cypress@1
 
 workflows:
   main:
     jobs:
-      - test-runner
+      - cypress/run
