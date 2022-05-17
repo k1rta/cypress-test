@@ -1,3 +1,3 @@
 module.exports = {
-    profileButton: '[href="#/@cytest987"]'
+    profileButton: '[href*="#/@"]'
 }
