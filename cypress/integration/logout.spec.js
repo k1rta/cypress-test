@@ -3,7 +3,7 @@ import logout from '../selectors/logout'
 describe('Logout', () => {
 
     before(() => {
-        cy.succesfulLogin({ email: '507cytest@test.com', password: 'Testtest1' })
+        cy.feLogin({ email: '507cytest@test.com', password: 'Testtest1' })
     })
 
     beforeEach(() => {

@@ -1,7 +1,7 @@
 import login from '../selectors/login.js'
 import menu from '../selectors/menu.js'
 
-Cypress.Commands.add('succesfulLogin', (user) => {
+Cypress.Commands.add('feLogin', (user) => {
     cy.visit('/login')
     cy.get(login.emailField).type(user.email)
     cy.get(login.passwordField).type(user.password)

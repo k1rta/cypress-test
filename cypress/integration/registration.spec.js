@@ -7,8 +7,8 @@ describe('Registration', () => {
         cy.visit('/register')
     })
 
-    let username = Math.floor(Math.random() * 1000) + 'cytest';
-    let email = Math.floor(Math.random() * 1000) + 'cytest@test.com';
+    let username = Math.floor(Math.random() * 10000) + 'cytest';
+    let email = Math.floor(Math.random() * 10000) + 'cytest@test.com';
     let password = 'Testtest1';
     
     it('successful', () => {
