@@ -1,5 +1,5 @@
-import login from '../selectors/login.js'
-import menu from '../selectors/menu.js'
+import login from '../selectors/login'
+import menu from '../selectors/menu'
 
 describe('Login', () => {
 

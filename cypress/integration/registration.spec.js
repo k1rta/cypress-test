@@ -1,5 +1,5 @@
 import registration from '../selectors/registration'
-import menu from '../selectors/menu.js'
+import menu from '../selectors/menu'
 
 describe('Registration', () => {
 
