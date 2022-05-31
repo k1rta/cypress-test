@@ -13,4 +13,6 @@ describe('Login', () => {
         cy.get(login.signInButton).click()
         cy.get(menu.profileButton).should('be.visible')
     })
+
+    // negative case
 })

@@ -18,4 +18,6 @@ describe('Registration', () => {
         cy.get(registration.signUpButton).click();
         cy.get(menu.profileButton).should('be.visible');
     })
+
+        // negative case
 })
